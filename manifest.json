@@ -1,0 +1,23 @@
+{
+    "name": "Color Prefer",
+    "description": "This extension will favor you to gather your preferred color",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "icons":{
+        "16":"/images/Colorprefer48.png",
+        "48":"/images/Colorprefer48.png",
+        "13":"images/Colorprefer48.png"
+    },
+    "action":{
+        "default_popup":"popup.html"
+       },
+    "options_page": "breif.html"
+}
